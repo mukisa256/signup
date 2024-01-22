@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        
+        <div class="form">
+            <h1>SignUP</h1> 
+            <form id="signupForm"  action="form-process.php" method="post">
+                <P>FirstName</P>
+                <input type="text" name = "fname" required>
+                <P>LastName</P>
+                <input type="text" name = "lname" required>
+                <P>Email</P>
+                <input type="email" name = "email" required>
+                <P>Password</P>
+                <input type="password" name = "pass" required> 
+                <button type="submit" name ="submit" class="btn">Submitt</button>
+            </form> 
+        </div>
+        <div id="userData">
+            <!-- User data will be displayed here -->
+        </div>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

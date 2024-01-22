@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: lightblue;
+
+}
+.main-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.form{
+    background-color: blue;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+input[type="text"],[type="email"],[type="password"]{
+    font-size: medium;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 200;
+    cursor: pointer;
+    margin: 10px 0;
+    font-family:cursive;
+    
+}
